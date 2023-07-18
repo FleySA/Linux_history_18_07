@@ -1,0 +1,81 @@
+   0 ls _la
+   1 ls -la
+   2 mkdir /home/user/start
+   3 mkdir -p /home/user/start
+   4 ls
+   5 tree
+   6 cd /home
+   7 tree
+   8 cd /start
+   9 cd ..
+  10 touch /home/user/start/1.txt
+  11 cd /home
+  12 tree
+  13 cd ..
+  14 echo >> "Start" /home/user/start/1.txt
+  15 date >> /home/user/start/1.txt
+  16 ls
+  17 ls -la
+  18 tree
+  19 cd /home
+  20 tree
+  21 cd ..
+  22 date +'%D'
+  23 date +'%T'
+  24 cat /home/user/start/1.txt
+  25 echo "" /home/user/start/1.txt
+  26 cat /home/user/start/1.txt
+  27 echo > /home/user/start/1.txt
+  28 cat /home/user/start/1.txt
+  29 echo "Start" >> /home/user/start/1.txt
+  30 cat /home/user/start/1.txt
+  31 date '%D'
+  32 date + '%D'
+  33 date +'%D'
+  34 date >> /home/user/start/1.txt 
+  35 cat /home/user/start/1.txt
+  36 mkdir -p /opt/task
+  37 tree
+  38 cd /opt
+  39 tree
+  40 cd ..
+  41 cp /home/user/start/1.txt /opt/task/start.txt
+  42 cd /opt
+  43 tree
+  44 cat /task/start.txt
+  45 cd ..
+  46 cat /opt/task/start.txt
+  47 cd ..
+  48 ls -A
+  49 ls -A / | tail -n 4 >> /opt/task/start.txt
+  50 cat /opt/task/start.txt
+  51 cd ..
+  52 mkdir -p /tmp/testnew
+  53 cp -r /opt/task/ /tmp/testnew
+  54 cat /tmp/testnew
+  55 cd /tmp
+  56 tree
+  57 cat /tmp/testnew/start.txt
+  58 cat /tmp/testnew/task/start.txt
+  59 cd /home
+  60 vat /home/readme.txt
+  61 cd ..
+  62 cd /home
+  63 cat /home/readme.txt
+  64 cd ..
+  65 cat readme.txt
+  66 cat readmi.txt
+  67 cat ~readme.txt >> /tmp/testnew/task/start.txt 
+  68 cd /home
+  69 touch readme.txt
+  70 tree
+  71 echo "readme" >> readme.txt
+  72 cat readme.txt
+  73 cat ~readme.txt >> /tmp/testnew/task/start.txt
+  74 cat readme.txt
+  75 cat readme.txt >> /tmp/testnew/task/start.txt
+  76 cat /tmp/testnew/task/start.txt
+  77 cd ..
+  78 rm -r /opt/task
+  79 history
+  80 history > history_18_07.txt
